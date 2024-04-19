@@ -2,7 +2,7 @@ Reference Links
 https://www.guru99.com/introduction-to-javascript.html
 https://www.tutorialsteacher.com/javascript/what-is-javascript
 Topics
-1. Print
+1. How to jscode Print
 2. Syntax
 3. Keywords
 4. Messages Box
