@@ -28,7 +28,7 @@ console.log(ptags);
  
 // get attribute method
 let anchor = document.getElementById("link");
-console.log(anchor);
+console.log(anchor);    
 
 let href_attribute = anchor.getAttribute("href");
 console.log(href_attribute);
