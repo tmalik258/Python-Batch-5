@@ -18,7 +18,7 @@ function sayhello (){
 
 const btn = document.getElementById("mybutton");
 const para = document.getElementById("mypara");
-const form = document.getElementById("#myform");
+const form = document.getElementById("myform");
 const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
 
@@ -44,6 +44,13 @@ btn.addEventListener('focus', ()=>{
 btn.onblur = function () {
     para.style.backgroundColor= "lightblue"
 }
+
+form.addEventListener('submit' , function (e) {
+       if (fname.value === "" || lname.value === ""){
+        e.preventDefault();
+        para.textContent = "You need to fill both names"
+       }
+});
 
 document.getElementById('anchor').addEventListener('click',function(eve){
     eve.preventDefault();
